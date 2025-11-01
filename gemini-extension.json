@@ -8,7 +8,7 @@
       "args": [
         "run",
         "--directory",
-        "${env:os === 'win32' ? env:LOCALAPPDATA + '\\\\UnityMCP\\\\UnityMcpServer\\\\src' : (env:os === 'darwin' ? env:HOME + '/Library/Application Support/UnityMCP/UnityMcpServer/src' : env:HOME + '/.local/share/UnityMCP/UnityMcpServer/src')}",
+        "${env:os === 'win32' ? env:LOCALAPPDATA + '\\UnityMCP\\UnityMcpServer\\src' : (env:os === 'darwin' ? env:HOME + '/Library/Application Support/UnityMCP/UnityMcpServer/src' : env:HOME + '/.local/share/UnityMCP/UnityMcpServer/src')}",
         "server.py"
       ]
     }
