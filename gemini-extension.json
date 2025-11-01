@@ -1,7 +1,9 @@
 {
+  "name": "unity-mcp",
+  "description": "Provides tools to interact with the Unity Editor and project C# code.",
+  "version": "1.0.0",
   "mcpServers": {
-    "UnityMCP": {
-      "description": "Provides tools to interact with the Unity Editor.",
+    "unity-mcp": {
       "command": "uv",
       "args": [
         "run",
